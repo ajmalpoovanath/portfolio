@@ -252,6 +252,15 @@ header {
   font-size: 0.95rem;
 }
 
+.card-content p a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.card-content p a:hover {
+  font-weight: bold;
+}
+
 .btn-primary {
   display: inline-block;
   padding: 10px 20px;
